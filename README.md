@@ -1,4 +1,4 @@
-=== LDAP for Laravel ===
+# LDAP for Laravel #
 
 By Rich Marisa, May, 2016
 
@@ -62,7 +62,7 @@ Example:
     }
 
 
-== Notes ==
+### Notes ###
 
 I used this page as a reference in creating this library: 
 http://www.andrew-kirkpatrick.com/2012/10/add-a-git-repository-as-a-package-using-composer-for-php/

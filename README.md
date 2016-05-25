@@ -15,7 +15,7 @@ After installing Laravel, your project will contain a composer.json file, contai
           "name": "citcustomapps/ldap",
           "version": "0.1.0",
           "source": {
-                  "url": "git@server.co.uk:Repository.git",
+                  "url": "https://github.com/CU-CommunityApps/CD-Laravel-LDAP.git",
               "type": "git",
           "reference": "0.1.0"
           }

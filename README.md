@@ -13,11 +13,11 @@ After installing Laravel, your project will contain a composer.json file, contai
       "type": "package",
       "package": {
           "name": "citcustomapps/ldap",
-          "version": "0.1.0",
+          "version": "1.0",
           "source": {
                   "url": "https://github.com/CU-CommunityApps/CD-Laravel-LDAP.git",
               "type": "git",
-          "reference": "0.1.0"
+          "reference": "1.0"
           }
           }
     }],
@@ -28,7 +28,7 @@ After installing Laravel, your project will contain a composer.json file, contai
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "laravelcollective/html": "~5.2",
-        "citcustomapps/ldap": "0.1.0"
+        "citcustomapps/ldap": "1.0"
     },
 
 

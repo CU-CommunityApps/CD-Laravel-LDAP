@@ -3,6 +3,7 @@
 namespace App\Helpers;
 
 use App\Helpers\Contracts\LDAPContract;
+use Illuminate\Session;
 
 class LDAP implements LDAPContract
 
@@ -10,7 +11,7 @@ class LDAP implements LDAPContract
 
     public function data()
     {
-        $NetID = "rjm2";  // or maybe $_GET ?
+        $NetID = Session::get("username");  
         $result = ["emplid"=>"", 'firstname'=>"", 'lastname'=>'', 'email'=>''];
 
         $ldappass = env("LDAP_PASS", "");
